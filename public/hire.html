@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hire Me | Sajal</title>
+  <link rel="stylesheet" href="hireme.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">SajalG</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="main.html#home">Home</a></li>
+          <li><a href="main.html#about">About</a></li>
+          <li><a href="hire.html" class="active">Hire Me</a></li>
+          <li><a href="main.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="magic-header">
+    <div class="hero-content">
+      <h1>Let's Build Something Extraordinary Together</h1>
+      <p>
+        I design magical experiences with code. If you need a stunning UI,
+        solid logic, and passion — let’s collaborate!
+      </p>
+      <a href="#hire-form" class="cta-button">I’m Ready to Hire You 🔥</a>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlight-section">
+    <h2>Why Hire Me?</h2>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <h3>🚀 Speed & Performance</h3>
+        <p>Your site will be fast, fluid, and optimized for any device.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>🎨 Beautiful UI/UX</h3>
+        <p>Visually captivating, user-friendly design that converts.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>💼 Professionalism</h3>
+        <p>Great communication, punctual delivery, and above-average work ethic.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>🧠 Tech Stack</h3>
+        <p>HTML, CSS, JavaScript, React, APIs, Flask, MongoDB, Django and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonial-section">
+    <h2>What People Say</h2>
+    <div class="testimonial" data-aos="fade-up">
+      <p>"Sajal is a creative genius. The UI/UX work is unmatched. Absolutely recommend!"</p>
+      <span>- A Happy Collaborator</span>
+    </div>
+    <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+      <p>"From concept to deployment, everything was perfect. Fast, clean, reliable."</p>
+      <span>- Startup Founder</span>
+    </div>
+  </section>
+
+  <!-- Hire Form -->
+  <section class="hire-form-section" id="hire-form">
+    <h2>Let's Collaborate</h2>
+    <p>Tell me about your project — and let’s co-create magic! 🪄</p>
+    <form class="hire-form" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="specialization" placeholder="Your Specialization (e.g. Brand, Startup, AI)" required />
+      <textarea name="project" placeholder="What is your project or idea?" rows="6" required></textarea>
+      <select name="collabType" required>
+        <option value="">Type of Collaboration</option>
+        <option value="paid">Paid Project</option>
+        <option value="open">Open Source</option>
+        <option value="creative">Creative Idea</option>
+      </select>
+      <button type="submit">Send Proposal 💌</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 <span class="sajal-name">Sajal Bhattarai</span> | All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+  <script src="hire.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

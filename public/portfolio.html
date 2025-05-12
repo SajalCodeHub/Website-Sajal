@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sajal Bhattarai | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Particles (Optional for subtle motion) -->
+  <div class="dots-background"></div>
+
+  <ul class="nav-links">
+    <li><a href="main.html#home">Home</a></li>
+    <li><a href="main.html#about">About</a></li>
+    <li><a href="hire.html" class="active">Hire Me</a></li>
+    <li><a href="main.html#contact">Contact</a></li>
+  </ul>
+  
+
+  <!-- Hero Section -->
+  <section class="hero-banner">
+    <h1>🚀 My Portfolio</h1>
+    <p>Explore the magic I've built — AI apps, real-time platforms, and polished frontend tools.</p>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section id="portfolio-grid">
+
+    <!-- MagicSheets -->
+    <div class="portfolio-item" data-aos="fade-up">
+      <img src="magicsheets.jpg" alt="MagicSheets.AI">
+      <div class="item-content">
+        <h3>MagicSheets.AI</h3>
+        <p>Personalized AI-generated worksheets for educators and students in seconds.</p>
+        <ul>
+          <li>📄 Worksheet generator</li>
+          <li>🌍 Multi-language support</li>
+          <li>🔐 Authentication + dashboard</li>
+          <li>📥 Download with answers</li>
+        </ul>
+        <a href="https://www.magicsheetsai.com" target="_blank" class="project-link">🌐 Visit MagicSheets</a>
+      </div>
+    </div>
+
+    <!-- Smart To-Do App -->
+    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+      <img src="todo-app.jpg" alt="Smart To-Do App">
+      <div class="item-content">
+        <h3>Smart To-Do</h3>
+        <p>Responsive productivity app for managing daily tasks, reminders, and goals.</p>
+        <ul>
+          <li>✅ Task creation & tracking</li>
+          <li>📅 Calendar planning</li>
+          <li>🌙 Dark mode</li>
+          <li>📊 Insights dashboard</li>
+        </ul>
+        <a href="#" class="project-link">🔗 Preview</a>
+      </div>
+    </div>
+
+    <!-- MagicChat -->
+    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+      <img src="magicchat.jpg" alt="MagicChat Web App">
+      <div class="item-content">
+        <h3>MagicChat</h3>
+        <p>Real-time chat platform with WebRTC calls, group messaging, and rich UI.</p>
+        <ul>
+          <li>💬 Live messaging (Socket.io)</li>
+          <li>🎥 WebRTC video/audio</li>
+          <li>🛡️ JWT auth system</li>
+          <li>👥 Group chats + avatars</li>
+        </ul>
+        <a href="#" class="project-link">🔗 Demo</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 <span class="footer-name">Sajal Bhattarai</span> | All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/thegreat_7/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100093601611709" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+
+</body>
+</html>

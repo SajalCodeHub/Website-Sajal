@@ -1,0 +1,288 @@
+/* 🌐 World-Class, Clean & Elegant Design for hireme.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header Hero Section === */
+.magic-header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  clip-path: ellipse(100% 75% at 50% 25%);
+  position: relative;
+}
+
+.magic-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.magic-header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.9rem 2.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #00e3ae, #007cf0);
+  color: white;
+  border-radius: 999px;
+  box-shadow: 0 4px 15px rgba(0, 124, 240, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 124, 240, 0.4);
+}
+
+/* === Highlights Section === */
+.highlight-section {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.highlight-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.highlight-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+}
+
+.highlight-card h3 {
+  color: #2575fc;
+  margin-bottom: 0.8rem;
+}
+
+/* === Testimonial Section === */
+.testimonial-section {
+  background: #ffffff;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.testimonial-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f0f4ff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-style: italic;
+  color: #444;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #2575fc;
+}
+
+/* === Hire Form Section === */
+.hire-form-section {
+  background: #fafcff;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e6e9f0;
+}
+
+.hire-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hire-form-section p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #555;
+}
+
+.hire-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hire-form input,
+.hire-form textarea,
+.hire-form select {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccd6dd;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.hire-form input:focus,
+.hire-form textarea:focus,
+.hire-form select:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.hire-form button {
+  background: #2575fc;
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hire-form button:hover {
+  background: #6a11cb;
+}
+
+/* === Footer === */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+  background: #f4f7fb;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+/* === Clean & Professional Navbar === */
+.navbar {
+  width: 100%;
+  background: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2575fc;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-links li a:hover,
+.navbar .nav-links li a.active {
+  color: #2575fc;
+  border-bottom: 2px solid #2575fc;
+}
+
+/* === Toast Notification Styles === */
+.custom-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.95);
+  background-color: #1e293b;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.custom-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.custom-toast.success {
+  background-color: #10b981;
+}
+
+.custom-toast.error {
+  background-color: #ef4444;
+}
+/* Spinner for Send Button */
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 3px solid transparent;
+  border-top: 3px solid #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
